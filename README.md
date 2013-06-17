@@ -1,7 +1,4 @@
-scriptcs-dynamicscrm
-===============
-
-# Dynamics CRM 2011 Script Pack
+# Dynamics CRM 2011 ScriptCS Script Pack
 
 ## What is it?
 A scriptcs script pack for communication with Dynamics CRM 2011 OrganizationService.
