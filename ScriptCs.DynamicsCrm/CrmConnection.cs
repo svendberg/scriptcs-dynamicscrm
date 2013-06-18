@@ -6,6 +6,9 @@ using Microsoft.Xrm.Sdk.Discovery;
 
 namespace ScriptCs.DynamicsCrm
 {
+    /// <summary>
+    /// Modified version of code found in Dynamics CRM SDK
+    /// </summary>
     public class CrmConnection
     {
         // To get discovery service address and organization unique name, 
