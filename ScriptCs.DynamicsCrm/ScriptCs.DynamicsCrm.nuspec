@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>$id$</id>
-    <version>$version$</version>
+    <version>0.1.0</version>
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
@@ -10,7 +10,10 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes>First alpha release.</releaseNotes>
-    <copyright>Copyright 2013</copyright>
+    <copyright>Copyright Harald Svendberg (harald@svendberg.net)</copyright>
     <tags>Dynamics CRM, scriptcs</tags>
+    <dependencies>
+      <dependency id="Microsoft.IdentityModel"/>
+    </dependencies>
   </metadata>
 </package>
