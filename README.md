@@ -22,6 +22,7 @@ scriptcs scriptname.csx
 ```
 
 ## Example script
+Retrieves an specific account.
 ```csharp
 var crm = Require<DynamicsCrm>();
 var orgService = crm.GetOrganizationService("http://crm2:5555/XrmServices/2011/Discovery.svc", "organization unique name", "user", "password", "domain");
