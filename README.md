@@ -24,7 +24,7 @@ scriptcs scriptname.csx
 ## Example script
 ```csharp
 var crm = Require<DynamicsCrm>();
-var orgService = crm.GetOrganizationService("http://crm2:5555/XrmServices/2011/Discovery.svc", "company", "user", "password", "domain");
+var orgService = crm.GetOrganizationService("http://crm2:5555/XrmServices/2011/Discovery.svc", "organization unique name", "user", "password", "domain");
 var account = orgService.Retrieve("account", new Guid("B39030B8-F736-E111-9E16-0800277C14DD"), new ColumnSet(true));
 Console.WriteLine(account["name"]);
 ```
