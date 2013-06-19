@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="microsoft.crm.sdk.proxy">
+      <HintPath>packages\Microsoft.Crm.Sdk.Proxy.5.0.14\lib\net40\microsoft.crm.sdk.proxy.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.IdentityModel">
       <HintPath>packages\Microsoft.IdentityModel.6.1.7600.16394\lib\net35\Microsoft.IdentityModel.dll</HintPath>
     </Reference>

@@ -13,6 +13,7 @@ namespace ScriptCs.DynamicsCrm
                "Microsoft.Xrm.Sdk",
                "Microsoft.Xrm.Sdk.Query",
                "Microsoft.Xrm.Sdk.Messages",
+               "Microsoft.Crm.Sdk.Messages"
             }.ToList();
          namespaces.ForEach(session.ImportNamespace);
 
