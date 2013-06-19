@@ -2,14 +2,14 @@
 <package >
   <metadata>
     <id>$id$</id>
-    <version>0.1.0</version>
+    <version>0.1.1</version>
     <title>$title$</title>
     <authors>$author$</authors>
     <owners>$author$</owners>
     <projectUrl>https://github.com/svendberg/scriptcs-dynamicscrm</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
-    <releaseNotes>First alpha release.</releaseNotes>
+    <releaseNotes>Added Microsoft.Crm.Sdk.Messages.</releaseNotes>
     <copyright>Copyright Harald Svendberg (harald@svendberg.net)</copyright>
     <tags>Dynamics CRM, scriptcs</tags>
     <dependencies>
