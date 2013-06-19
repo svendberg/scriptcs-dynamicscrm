@@ -22,13 +22,21 @@ scriptcs scriptname.csx
 ```
 
 ## Example script
-Retrieves a specific account.
+Retrieves a specific account with current user:
 ```csharp
 var crm = Require<DynamicsCrm>();
-var orgService = crm.GetOrganizationService("http://crm2:5555/XrmServices/2011/Discovery.svc", "organization unique name", "user", "password", "domain");
+var orgService = crm.GetOrganizationService("http://crm/XrmServices/2011/Discovery.svc", "organization unique name");
 var account = orgService.Retrieve("account", new Guid("B39030B8-F736-E111-9E16-0800277C14DD"), new ColumnSet(true));
 Console.WriteLine(account["name"]);
 ```
+
+To specify the user:
+```csharp
+var orgService = crm.GetOrganizationService("http://crm/XrmServices/2011/Discovery.svc", "organization unique name", "user", "password", "domain");
+```
+
+Online should also work by not setting the domain parameter.
+
 To get discovery service address and organization unique name, 
 Sign in to your CRM org and click Settings, Customization, Developer Resources.
 On Developer Resource page, find the discovery service address under Service Endpoints and organization unique name under Your Organization Information.
