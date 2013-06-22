@@ -1,5 +1,5 @@
 var crm = Require<DynamicsCrm>();
-var proxy = crm.GetOrganizationService("http://crmserver/XrmServices/2011/Discovery.svc", "organization unique name");
+var proxy = crm.GetOrganizationService("http://crm/XrmServices/2011/Discovery.svc", "organization unique name");
 
 int stateCodeOpen = 0;
 int statusCodeActive = 3;
