@@ -6,6 +6,8 @@ Only tested on-premise so far, but should work for online as well.
 
 Read more on ScriptCs: http://scriptcs.net/
 
+You can also get more info about Dynamics CRM Script Pack in [this blogpost](http://svendberg.net/2013/06/25/dynamics-crm-toolbox-using-scriptcs/). 
+
 ## Usage
 1. Follow the instructions on http://scriptcs.net/ to install ScriptCs. 
 3. Navigate to your script folder.
