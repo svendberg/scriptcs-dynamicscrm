@@ -115,18 +115,18 @@ namespace ScriptCs.DynamicsCrm
         }
 
         /// <seealso cref="DiscoveryOrganizations"/>
-        public OrganizationDetail FindOrganization(string orgFriendlyName,
+        public OrganizationDetail FindOrganization(string orgUniqueName,
             OrganizationDetail[] orgDetails)
         {
-            if (String.IsNullOrWhiteSpace(orgFriendlyName))
-                throw new ArgumentNullException("orgFriendlyName");
+            if (String.IsNullOrWhiteSpace(orgUniqueName))
+                throw new ArgumentNullException("orgUniqueName");
             if (orgDetails == null)
                 throw new ArgumentNullException("orgDetails");
             OrganizationDetail orgDetail = null;
 
             foreach (OrganizationDetail detail in orgDetails)
             {
-                if (String.Compare(detail.FriendlyName, orgFriendlyName,
+                if (String.Compare(detail.UniqueName, orgUniqueName,
                     StringComparison.InvariantCultureIgnoreCase) == 0)
                 {
                     orgDetail = detail;
