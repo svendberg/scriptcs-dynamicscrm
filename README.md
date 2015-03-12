@@ -1,7 +1,7 @@
 # Dynamics CRM 2011 Script Pack
 
 ## What is it?
-A ScriptCs script pack for communication with Dynamics CRM 2011 OrganizationService.
+A ScriptCs script pack for communication with Dynamics CRM 2011 / 2013 / 2015 OrganizationService.
 Only tested on-premise so far, but should work for online as well. 
 
 Read more on ScriptCs: http://scriptcs.net/
