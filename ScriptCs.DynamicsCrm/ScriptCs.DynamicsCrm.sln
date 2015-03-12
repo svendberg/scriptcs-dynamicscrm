@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptCs.DynamicsCrm", "ScriptCs.DynamicsCrm.csproj", "{B57F421C-81E1-4615-948A-A0F02D13E835}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1C5EA639-05AB-48D5-B54F-B3E603FC4C43}"
@@ -9,6 +11,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{1C5EA6
 		.nuget\NuGet.exe = .nuget\NuGet.exe
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScriptCs.DynamicsCrm.TestClient", "..\ScriptCs.DynamicsCrm.TestClient\ScriptCs.DynamicsCrm.TestClient.csproj", "{C7D855A3-FB86-4502-8710-204F3691D479}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +24,10 @@ Global
 		{B57F421C-81E1-4615-948A-A0F02D13E835}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B57F421C-81E1-4615-948A-A0F02D13E835}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B57F421C-81E1-4615-948A-A0F02D13E835}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7D855A3-FB86-4502-8710-204F3691D479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7D855A3-FB86-4502-8710-204F3691D479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7D855A3-FB86-4502-8710-204F3691D479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7D855A3-FB86-4502-8710-204F3691D479}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
